@@ -14,14 +14,14 @@ const pages = [
 
 export default function Magazine() {
   return (
-    <div className="bg-stone-100 min-h-screen pt-28 pb-20">
-      <div className="max-w-4xl mx-auto px-4 md:px-8 flex flex-col gap-2">
+    <div className="min-h-screen pt-24 pb-16" style={{ backgroundColor: '#f5f0eb' }}>
+      <div className="max-w-3xl mx-auto">
         {pages.map(({ num, label }) => (
           <img
             key={num}
             src={`/magazine-pages/${num}.png`}
             alt={label}
-            className="w-full h-auto block shadow-md"
+            className="w-full h-auto block"
             loading={num === 1 ? 'eager' : 'lazy'}
             decoding="async"
           />
