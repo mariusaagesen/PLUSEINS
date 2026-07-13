@@ -48,17 +48,22 @@ export default function Footer() {
           <div>
             <p className="text-xs font-sans tracking-[0.2em] uppercase text-stone-600 mb-6">{t.footer.contact}</p>
             <div className="space-y-4">
-              <div>
-                <p className="text-xs text-stone-600 mb-1">{t.visit.address.label}</p>
-                <p className="text-sm font-sans font-light text-stone-400">{t.visit.address.street}</p>
-                <p className="text-sm font-sans font-light text-stone-400">{t.visit.address.city}</p>
-              </div>
-              <div>
-                <p className="text-xs text-stone-600 mb-1">{t.footer.hours.label}</p>
-                <div className="flex justify-between gap-4">
-                  <p className="text-sm font-sans font-light text-stone-400">{t.footer.hours.days}</p>
-                  <p className="text-sm font-sans font-light text-stone-400">{t.footer.hours.time}</p>
-                </div>
+              <div className="grid grid-cols-2 gap-5">
+                {([t.footer.plusEins, t.footer.deli] as const).map((loc) => (
+                  <div key={loc.title}>
+                    <p className="text-xs font-sans tracking-[0.15em] uppercase text-stone-500 mb-2">{loc.title}</p>
+                    <div className="mb-2">
+                      <p className="text-xs text-stone-600 mb-0.5">{t.visit.address.label}</p>
+                      <p className="text-sm font-sans font-light text-stone-400">{loc.street}</p>
+                      <p className="text-sm font-sans font-light text-stone-400">{loc.city}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs text-stone-600 mb-0.5">{t.footer.hours.label}</p>
+                      <p className="text-sm font-sans font-light text-stone-400">{t.footer.hours.days}</p>
+                      <p className="text-sm font-sans font-light text-stone-400">{loc.time}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
               <div>
                 <p className="text-xs text-stone-600 mb-1">{t.footer.contact}</p>

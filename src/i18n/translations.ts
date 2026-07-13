@@ -310,7 +310,18 @@ export const translations = {
       hours: {
         label: 'Åbningstider',
         days: 'Mandag – Søndag',
-        time: '11:00 – 23:00',
+      },
+      plusEins: {
+        title: '+1',
+        street: 'Toldbodvej 45',
+        city: '4581 Rørvig',
+        time: '10:00 – 21:00',
+      },
+      deli: {
+        title: '+1 Deli',
+        street: 'Toldbodvej 8',
+        city: '4581 Rørvig',
+        time: '11:00 – 20:00',
       },
     },
   },
@@ -624,7 +635,18 @@ export const translations = {
       hours: {
         label: 'Öffnungszeiten',
         days: 'Montag – Sonntag',
-        time: '11:00 – 23:00',
+      },
+      plusEins: {
+        title: '+1',
+        street: 'Toldbodvej 45',
+        city: '4581 Rørvig',
+        time: '10:00 – 21:00',
+      },
+      deli: {
+        title: '+1 Deli',
+        street: 'Toldbodvej 8',
+        city: '4581 Rørvig',
+        time: '11:00 – 20:00',
       },
     },
   },
@@ -938,7 +960,18 @@ export const translations = {
       hours: {
         label: 'Opening Hours',
         days: 'Monday – Sunday',
-        time: '11:00 – 23:00',
+      },
+      plusEins: {
+        title: '+1',
+        street: 'Toldbodvej 45',
+        city: '4581 Rørvig',
+        time: '10:00 – 21:00',
+      },
+      deli: {
+        title: '+1 Deli',
+        street: 'Toldbodvej 8',
+        city: '4581 Rørvig',
+        time: '11:00 – 20:00',
       },
     },
   },
