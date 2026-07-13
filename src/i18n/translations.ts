@@ -22,6 +22,7 @@ export const translations = {
         eyebrow: 'Rørvig, Danmark',
         title: 'All that we love +1',
         subtitle: 'Et kurateret univers med design, delikatesser, vin og gode oplevelser – midt i hjertet af Rørvig.',
+        cta: 'Udforsk Plus Eins',
         secondaryCta: 'Find os',
       },
       intro: {
@@ -335,6 +336,7 @@ export const translations = {
         eyebrow: 'Rørvig, Dänemark',
         title: 'All that we love +1',
         subtitle: 'Ein kuratiertes Universum mit Design, Feinkost, Wein und besonderen Erlebnissen – im Herzen von Rørvig.',
+        cta: 'Plus Eins entdecken',
         secondaryCta: 'Uns finden',
       },
       intro: {
@@ -648,6 +650,7 @@ export const translations = {
         eyebrow: 'Rørvig, Denmark',
         title: 'All that we love +1',
         subtitle: 'A curated universe of design, delicacies, wine and good experiences – in the heart of Rørvig.',
+        cta: 'Explore Plus Eins',
         secondaryCta: 'Find us',
       },
       intro: {

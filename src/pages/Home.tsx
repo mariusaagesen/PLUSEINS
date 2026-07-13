@@ -55,6 +55,9 @@ export default function Home() {
               transition: 'opacity 1.2s cubic-bezier(0.25,0.46,0.45,0.94) 0.2s, transform 1.2s cubic-bezier(0.25,0.46,0.45,0.94) 0.2s',
             }}
           >
+            <div className="flex flex-wrap gap-4">
+              <Link to="/visit" className="btn-light">{t.home.hero.cta}</Link>
+            </div>
           </div>
         </div>
       </section>
