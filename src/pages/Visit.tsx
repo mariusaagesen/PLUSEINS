@@ -14,6 +14,7 @@ export default function Visit() {
           src="/images/IMG_8158 copy.JPG"
           alt="Plus Eins Rørvig"
           className="absolute inset-0 w-full h-full object-cover object-center"
+          style={{ transform: 'rotate(1.5deg) scale(1.05)', transformOrigin: 'center center' }}
           loading="eager"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-stone-950/75 via-stone-950/20 to-transparent" />
