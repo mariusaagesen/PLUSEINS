@@ -279,9 +279,7 @@ export const translations = {
       hours: {
         label: 'Åbningstider',
         items: [
-          { days: 'Mandag – fredag', time: '08:00 – 18:00' },
-          { days: 'Lørdag', time: '09:00 – 17:00' },
-          { days: 'Søndag', time: '10:00 – 15:00' },
+          { days: 'Mandag – Søndag', time: '10:00 – 21:00' },
         ],
         note: 'Køkkenet lukker 30 min. før lukketid. Åbningstider kan variere i ferier.',
       },
@@ -604,9 +602,7 @@ export const translations = {
       hours: {
         label: 'Öffnungszeiten',
         items: [
-          { days: 'Montag – Freitag', time: '08:00 – 18:00' },
-          { days: 'Samstag', time: '09:00 – 17:00' },
-          { days: 'Sonntag', time: '10:00 – 15:00' },
+          { days: 'Montag – Sonntag', time: '10:00 – 21:00' },
         ],
         note: 'Die Küche schließt 30 Min. vor Ladenschluss. Öffnungszeiten können an Feiertagen variieren.',
       },
@@ -929,9 +925,7 @@ export const translations = {
       hours: {
         label: 'Opening hours',
         items: [
-          { days: 'Monday – Friday', time: '08:00 – 18:00' },
-          { days: 'Saturday', time: '09:00 – 17:00' },
-          { days: 'Sunday', time: '10:00 – 15:00' },
+          { days: 'Monday – Sunday', time: '10:00 – 21:00' },
         ],
         note: 'Kitchen closes 30 min. before closing. Hours may vary during holidays.',
       },
