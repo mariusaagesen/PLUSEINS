@@ -4,8 +4,19 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['Cormorant Garamond', 'Georgia', 'serif'],
-        sans: ['DM Sans', 'system-ui', 'sans-serif'],
+        serif: ['Rotis Sans Serif', 'Arial', 'sans-serif'],
+        sans: ['Rotis Sans Serif', 'Arial', 'sans-serif'],
+      },
+      fontWeight: {
+        thin: 400,
+        extralight: 400,
+        light: 400,
+        normal: 400,
+        medium: 400,
+        semibold: 700,
+        bold: 700,
+        extrabold: 700,
+        black: 700,
       },
       colors: {
         cream: {

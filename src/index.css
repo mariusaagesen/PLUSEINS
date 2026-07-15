@@ -1,8 +1,30 @@
+@font-face {
+  font-family: "Rotis Sans Serif";
+  src: url("/fonts/RotisSansSerif-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rotis Sans Serif";
+  src: url("/fonts/RotisSansSerif-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  html,
+  body,
+  #root {
+    font-family: "Rotis Sans Serif", Arial, sans-serif;
+  }
+
   html {
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
@@ -11,12 +33,27 @@
 
   body {
     @apply bg-cream-50 text-stone-800;
-    font-family: 'DM Sans', system-ui, sans-serif;
+    font-family: "Rotis Sans Serif", Arial, sans-serif;
+    font-weight: 400;
   }
 
   h1, h2, h3, h4 {
-    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-family: "Rotis Sans Serif", Arial, sans-serif;
+    font-weight: 700;
     letter-spacing: -0.01em;
+  }
+
+  button,
+  input,
+  textarea,
+  select,
+  option {
+    font-family: inherit;
+  }
+
+  strong,
+  b {
+    font-weight: 700;
   }
 
   ::selection {
