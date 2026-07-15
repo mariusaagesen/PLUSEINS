@@ -99,8 +99,8 @@ export default function Visit() {
                   <a href="tel:+4512345678" className="font-serif text-xl font-light text-stone-900 hover:text-stone-600 transition-colors block">
                     +45 12 34 56 78
                   </a>
-                  <a href="mailto:hej@pluseins.dk" className="font-serif text-xl font-light text-stone-600 hover:text-stone-900 transition-colors block">
-                    hej@pluseins.dk
+                  <a href="mailto:accounting@plus-eins.dk" className="font-serif text-xl font-light text-stone-600 hover:text-stone-900 transition-colors block">
+                    accounting@plus-eins.dk
                   </a>
                 </div>
               </div>
