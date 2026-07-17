@@ -71,13 +71,32 @@ export default function Footer() {
                   accounting@plus-eins.dk
                 </a>
               </div>
-              <div className="flex gap-3 pt-1">
-                <a href="https://instagram.com/pluseins.dk" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-9 h-9 border border-stone-700 rounded-full flex items-center justify-center hover:border-stone-400 hover:text-stone-200 transition-colors">
-                  <Instagram size={13} strokeWidth={1.5} />
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=61577638444114" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-9 h-9 border border-stone-700 rounded-full flex items-center justify-center hover:border-stone-400 hover:text-stone-200 transition-colors">
-                  <Facebook size={13} strokeWidth={1.5} />
-                </a>
+              <div className="pt-2">
+                <p className="text-xs font-sans tracking-[0.2em] uppercase text-stone-600 mb-4">{t.visit.social.label}</p>
+                <div className="space-y-4">
+                  <div>
+                    <p className="text-xs font-sans tracking-[0.15em] uppercase text-stone-500 mb-2">{t.footer.plusEins.title}</p>
+                    <div className="flex gap-3">
+                      <a href="https://instagram.com/pluseins.dk" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-9 h-9 border border-stone-700 rounded-full flex items-center justify-center hover:border-stone-400 hover:text-stone-200 transition-colors">
+                        <Instagram size={13} strokeWidth={1.5} />
+                      </a>
+                      <a href="https://www.facebook.com/profile.php?id=61577638444114" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-9 h-9 border border-stone-700 rounded-full flex items-center justify-center hover:border-stone-400 hover:text-stone-200 transition-colors">
+                        <Facebook size={13} strokeWidth={1.5} />
+                      </a>
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-xs font-sans tracking-[0.15em] uppercase text-stone-500 mb-2">{t.footer.deli.title}</p>
+                    <div className="flex gap-3">
+                      <a href="https://www.instagram.com/pluseins_deli" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-9 h-9 border border-stone-700 rounded-full flex items-center justify-center hover:border-stone-400 hover:text-stone-200 transition-colors">
+                        <Instagram size={13} strokeWidth={1.5} />
+                      </a>
+                      <a href="https://www.facebook.com/profile.php?id=61591412867548" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-9 h-9 border border-stone-700 rounded-full flex items-center justify-center hover:border-stone-400 hover:text-stone-200 transition-colors">
+                        <Facebook size={13} strokeWidth={1.5} />
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
