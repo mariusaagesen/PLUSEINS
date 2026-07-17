@@ -299,6 +299,9 @@ export const translations = {
         cta: 'Åbn i Google Maps',
       },
     },
+    meta: {
+      homeDescription: 'Plus Eins i Rørvig samler boutique, salumeria og deli under ét univers med udvalgte brands, italienske delikatesser, focaccia, vin og interiør.',
+    },
     footer: {
       tagline: 'Et kurateret univers midt i hjertet af Rørvig.',
       explore: 'Udforsk',
@@ -622,6 +625,9 @@ export const translations = {
         cta: 'In Google Maps öffnen',
       },
     },
+    meta: {
+      homeDescription: 'Plus Eins in Rørvig vereint Boutique, Salumeria und Deli mit ausgewählten Marken, italienischen Delikatessen, Focaccia, Wein und Interior.',
+    },
     footer: {
       tagline: 'Ein kuratiertes Universum im Herzen von Rørvig.',
       explore: 'Entdecken',
@@ -944,6 +950,9 @@ export const translations = {
         text: 'Rørvig is located on the Hornsherred peninsula – north of the Isefjord. A short ferry ride from Hundested or a scenic drive from Holbæk. We are easy to find in the heart of the village.',
         cta: 'Open in Google Maps',
       },
+    },
+    meta: {
+      homeDescription: 'Plus Eins in Rørvig brings together a boutique, salumeria and deli with selected brands, Italian delicacies, focaccia, wine and interior design.',
     },
     footer: {
       tagline: 'A curated universe in the heart of Rørvig.',

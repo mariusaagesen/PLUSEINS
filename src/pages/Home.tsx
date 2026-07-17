@@ -33,6 +33,11 @@ export default function Home() {
     return () => clearTimeout(id);
   }, []);
 
+  useEffect(() => {
+    const el = document.querySelector('meta[name="description"]');
+    if (el) el.setAttribute('content', t.meta.homeDescription);
+  }, [t.meta.homeDescription]);
+
   return (
     <div>
       {/* Hero */}
