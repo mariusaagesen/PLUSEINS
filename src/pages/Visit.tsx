@@ -77,17 +77,35 @@ export default function Visit() {
               <div className="w-10 h-10 border border-stone-200 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                 <Instagram size={14} strokeWidth={1.5} className="text-stone-600" />
               </div>
-              <div>
+              <div className="flex-1">
                 <p className="text-[10px] font-sans tracking-[0.2em] uppercase text-stone-400 mb-3">{v.social.label}</p>
-                <div className="flex flex-wrap gap-4">
-                  <a href="https://instagram.com/pluseins.dk" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-sans text-stone-600 hover:text-stone-900 transition-colors">
-                    <Instagram size={14} strokeWidth={1.5} />
-                    {v.social.instagram}
-                  </a>
-                  <a href="https://facebook.com/profile.php?id=61591412867548" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-sans text-stone-600 hover:text-stone-900 transition-colors">
-                    <Facebook size={14} strokeWidth={1.5} />
-                    {v.social.facebook}
-                  </a>
+                <div className="grid sm:grid-cols-2 gap-6">
+                  <div>
+                    <p className="text-xs font-sans tracking-[0.15em] uppercase text-stone-500 mb-2">{t.footer.plusEins.title}</p>
+                    <div className="flex flex-col gap-2">
+                      <a href="https://instagram.com/pluseins.dk" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-sans text-stone-600 hover:text-stone-900 transition-colors">
+                        <Instagram size={14} strokeWidth={1.5} />
+                        Instagram
+                      </a>
+                      <a href="https://www.facebook.com/profile.php?id=61577638444114" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-sans text-stone-600 hover:text-stone-900 transition-colors">
+                        <Facebook size={14} strokeWidth={1.5} />
+                        Facebook
+                      </a>
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-xs font-sans tracking-[0.15em] uppercase text-stone-500 mb-2">{t.footer.deli.title}</p>
+                    <div className="flex flex-col gap-2">
+                      <a href="https://www.instagram.com/pluseins_deli" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-sans text-stone-600 hover:text-stone-900 transition-colors">
+                        <Instagram size={14} strokeWidth={1.5} />
+                        Instagram
+                      </a>
+                      <a href="https://www.facebook.com/profile.php?id=61591412867548" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-sans text-stone-600 hover:text-stone-900 transition-colors">
+                        <Facebook size={14} strokeWidth={1.5} />
+                        Facebook
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
