@@ -184,7 +184,10 @@ export default function Salumeria() {
 
                 {/* Vin */}
                 <div>
-                  <h2 className="font-bold text-xl">Vin*</h2>
+                  <div className="flex justify-between items-baseline">
+                    <h2 className="font-bold text-xl">Vin*</h2>
+                    <span className="text-sm font-light">90</span>
+                  </div>
                   <div className="w-full h-px bg-stone-400 mt-1 mb-3" />
                   <div className="space-y-1 text-sm font-light leading-relaxed">
                     <p>Hvid</p>
@@ -197,7 +200,10 @@ export default function Salumeria() {
 
                 {/* Øl */}
                 <div>
-                  <h2 className="font-bold text-xl">Øl</h2>
+                  <div className="flex justify-between items-baseline">
+                    <h2 className="font-bold text-xl">Øl</h2>
+                    <span className="text-sm font-light">80</span>
+                  </div>
                   <div className="w-full h-px bg-stone-400 mt-1 mb-3" />
                   <div className="space-y-1 text-sm font-light leading-relaxed">
                     <p>Augustiner Hell</p>
@@ -209,7 +215,10 @@ export default function Salumeria() {
 
                 {/* Café */}
                 <div>
-                  <h2 className="font-bold text-xl">Café</h2>
+                  <div className="flex justify-between items-baseline">
+                    <h2 className="font-bold text-xl">Café</h2>
+                    <span className="text-sm font-light">48</span>
+                  </div>
                   <div className="w-full h-px bg-stone-400 mt-1 mb-3" />
                   <div className="space-y-1 text-sm font-light leading-relaxed">
                     <p>Flat White</p>
