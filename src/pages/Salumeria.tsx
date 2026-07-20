@@ -240,25 +240,19 @@ export default function Salumeria() {
                   <h2 className="font-bold text-xl">Non Alcoholic</h2>
                   <div className="w-full h-px bg-stone-400 mt-1 mb-3" />
                   <div className="space-y-1 text-sm font-light leading-relaxed">
-                    <p>Limonade italian style</p>
-                    <p>Vand med kulsyre San Benedetto 0.75 l</p>
-                    <p>Vand uden kulsyre San Benedetto 0,75 l</p>
+                    <div className="flex justify-between gap-4"><span>Limonade italiensk style</span><span className="shrink-0">35</span></div>
+                    <div className="flex justify-between gap-4"><span>Vand med kulsyre San Benedetto 0,75 l</span><span className="shrink-0">50</span></div>
+                    <div className="flex justify-between gap-4"><span>Vand uden kulsyre San Benedetto 0,75 l</span><span className="shrink-0">50</span></div>
                   </div>
                 </div>
 
                 {/* Cocktails & Bobler */}
                 <div>
-                  <h2 className="font-bold text-xl">Cocktails &amp; Bobler</h2>
-                  <div className="w-full h-px bg-stone-400 mt-1 mb-3" />
-                  <div className="space-y-1 text-sm font-light leading-relaxed">
-                    <p>Aperol Spritz</p>
-                    <p>Aperol Limoncello</p>
-                    <p>Gin Tonic</p>
-                    <p>Hugo</p>
-                    <p>Cremant</p>
-                    <p>Sekt</p>
-                    <p>Alkoholfri Sekt</p>
+                  <div className="flex justify-between items-baseline">
+                    <h2 className="font-bold text-xl">Cocktails &amp; Bobler</h2>
+                    <span className="text-sm font-light">105</span>
                   </div>
+                  <div className="w-full h-px bg-stone-400 mt-1 mb-3" />
                 </div>
 
                 {/* Footer */}
