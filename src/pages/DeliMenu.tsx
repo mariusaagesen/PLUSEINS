@@ -53,7 +53,7 @@ export default function DeliMenu() {
       {/* Menu image */}
       <section className="max-w-[1400px] mx-auto px-6 md:px-10 pb-32 md:pb-40 flex justify-center">
         <img
-          src="/images/Screenshot_2026-07-10_at_14.59.31.png"
+          src="/images/plus-eins-deli-menu-transparent.png"
           alt="Deli menu"
           style={{ width: '100%', height: 'auto', objectFit: 'contain', maxWidth: '1000px' }}
           loading="lazy"
