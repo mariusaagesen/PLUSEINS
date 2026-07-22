@@ -77,8 +77,8 @@ export const translations = {
       ],
     },
     showroom: {
-      title: 'SHOWROOM_TITLE',
-      text: 'SHOWROOM_TEXT',
+      title: 'Weisselberg',
+      text: 'Hos Weisselberg forenes raffineret håndværk, innovative designkoncepter og en dyb passion for æstetisk ekspertise. Siden grundlæggelsen har missionen været at skabe ikke blot rum, men også unikke måder at leve på. I mere end 40 år har firmaet støt vokset gennem personlige anbefalinger – et bevis på kundernes tillid. Et team af erfarne designere griber hvert projekt an med stor omhu og et øje for det exceptionelle. Som en dedikeret designpartner forstår de kundernes visioner; de forfiner dem og omsætter dem til en enestående virkelighed. Derved opnås en perfekt balance mellem funktionalitet, tidløs elegance og en personlig signatur. Et køkken er hjemmets samlingspunkt – hjertet i dit hjem. Derfor sørger Weisselberg for, at hver eneste detalje er perfekt gennemtænkt. Deres ekspertise rækker langt ud over køkkener og strækker sig til skræddersyede garderober, walk-in-omklædningsrum og gennemtænkt designede opholds- og spiseområder. Planlægning af opholdsrum med præcision og følsomhed er ikke bare deres arbejde; det er deres passion. Weisselberg designer køkken- og interiørprojekter med Eggersmann Kitchens. Materialerne er ærlige: sten, træ og metal, udformet med arkitektonisk klarhed og taktil dybde. Bag hver glat overflade ligger omhyggelig tysk præcision og en dyb respekt for både funktion og form. Hos Plus Eins deler vi Eggersmanns filosofi: at design skal føles ubesværet, ærligt og holdbart. Det schweiziske mærke V-ZUG kombinerer teknologi og tidløst design. Med en baggrund inden for arkitektur udvikler Allan Weisselberg køkkenkoncepter, der kombinerer rumlig vision med raffineret æstetisk klarhed. Med stor følsomhed og en intuitiv sans for form og atmosfære skaber Irena Weisselberg holistiske interiørkoncepter, der forener møbler, farver og materialer til en sammenhængende fortælling. Hvis du ønsker at opleve Weisselbergs køkkener og designfilosofi, kan du besøge deres hjemmeside eller lade dig inspirere i showroomet hos Plus Eins.',
     },
     magazine: {
       seasonLabel: 'Forårsudgave 2026',
@@ -408,8 +408,8 @@ export const translations = {
       ],
     },
     showroom: {
-      title: 'SHOWROOM_TITLE',
-      text: 'SHOWROOM_TEXT',
+      title: 'Weisselberg',
+      text: 'Bei Weisselberg verbinden sich raffiniertes Handwerk, innovative Designkonzepte und eine tiefe Leidenschaft für ästhetische Expertise. Seit der Gründung besteht die Mission darin, nicht nur Räume zu schaffen, sondern einzigartige Arten zu leben. Seit mehr als 40 Jahren wächst das Unternehmen stetig durch persönliche Empfehlungen – ein Beweis für das Vertrauen der Kunden. Ein Team erfahrener Designer geht jedes Projekt mit großer Sorgfalt und einem Gespür für das Außergewöhnliche an. Als engagierter Designpartner verstehen sie die Visionen ihrer Kunden und verwandeln sie in eine unverwechselbare Wirklichkeit – eine perfekte Balance zwischen Funktionalität, zeitloser Eleganz und persönlicher Handschrift. Eine Küche ist der Mittelpunkt des Zuhauses – das Herz Ihres Heims. Deshalb sorgt Weisselberg dafür, dass jedes Detail durchdacht ist. Weisselberg entwirft Küchen- und Interiorprojekte mit Eggersmann Kitchens. Die Materialien sind ehrlich: Stein, Holz und Metall, geformt mit architektonischer Klarheit und taktiler Tiefe. Hinter jeder glatten Oberfläche steckt sorgfältige deutsche Präzision und ein tiefer Respekt für Funktion und Form. Bei Plus Eins teilen wir Eggersmanns Philosophie: Design soll sich mühelos, ehrlich und dauerhaft anfühlen. Die Schweizer Marke V-ZUG verbindet Technologie mit zeitlosem Design. Mit einem Hintergrund in der Architektur entwickelt Allan Weisselberg Küchenkonzepte, die räumliche Vision mit raffinierter ästhetischer Klarheit verbinden. Irena Weisselberg schafft ganzheitliche Interieurkonzepte, die Möbel, Farben und Materialien zu einer zusammenhängenden Geschichte vereinen. Erleben Sie Weisselbergs Küchen und Designphilosophie im Showroom bei Plus Eins.',
     },
     magazine: {
       seasonLabel: 'Frühjahrsausgabe 2026',
@@ -739,8 +739,8 @@ export const translations = {
       ],
     },
     showroom: {
-      title: 'SHOWROOM_TITLE',
-      text: 'SHOWROOM_TEXT',
+      title: 'Weisselberg',
+      text: 'At Weisselberg, refined craftsmanship, innovative design concepts and a deep passion for aesthetic expertise come together. Since its founding, the mission has been to create not merely rooms, but unique ways of living. For more than 40 years the firm has grown steadily through personal recommendations – a testament to the trust of its clients. A team of experienced designers approaches every project with great care and an eye for the exceptional. As a dedicated design partner, they understand clients visions, refine them and transform them into a singular reality – achieving a perfect balance between functionality, timeless elegance and personal signature. A kitchen is the gathering place of a home – its heart. Weisselberg designs kitchen and interior projects with Eggersmann Kitchens. The materials are honest: stone, wood and metal, shaped with architectural clarity and tactile depth. Behind every smooth surface lies careful German precision and a deep respect for both function and form. At Plus Eins we share Eggersmanns philosophy: that design should feel effortless, honest and enduring. The Swiss brand V-ZUG combines technology with timeless design. With a background in architecture, Allan Weisselberg develops kitchen concepts that unite spatial vision with refined aesthetic clarity. Irena Weisselberg creates holistic interior concepts that bring furniture, colours and materials together into a coherent narrative. If you wish to experience Weisselbergs kitchens and design philosophy, visit their showroom at Plus Eins.',
     },
     magazine: {
       seasonLabel: 'Spring Issue 2026',
