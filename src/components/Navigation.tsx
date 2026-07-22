@@ -8,6 +8,7 @@ const mainRoutes = [
   { key: 'boutique' as const, path: '/boutique' },
   { key: 'salumeria' as const, path: '/salumeria' },
   { key: 'deliMenu' as const, path: '/deli' },
+  { key: 'showroom' as const, path: '/showroom' },
   { key: 'magazine' as const, path: '/magazine' },
   { key: 'aboutUs' as const, path: '/about' },
 ];

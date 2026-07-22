@@ -6,6 +6,7 @@ const routes = [
   { key: 'boutique' as const, path: '/boutique' },
   { key: 'salumeria' as const, path: '/salumeria' },
   { key: 'deliMenu' as const, path: '/deli' },
+  { key: 'showroom' as const, path: '/showroom' },
 ];
 
 export default function Footer() {

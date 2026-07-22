@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Boutique from './pages/Boutique';
 import Salumeria from './pages/Salumeria';
 import DeliMenu from './pages/DeliMenu';
+import Showroom from './pages/Showroom';
 import Cafe from './pages/Cafe';
 import Wine from './pages/Wine';
 import Delicatessen from './pages/Delicatessen';
@@ -25,6 +26,7 @@ export default function App() {
             <Route path="/boutique" element={<Boutique />} />
             <Route path="/salumeria" element={<Salumeria />} />
             <Route path="/deli" element={<DeliMenu />} />
+            <Route path="/showroom" element={<Showroom />} />
             <Route path="/cafe" element={<Cafe />} />
             <Route path="/wine" element={<Wine />} />
             <Route path="/delicatessen" element={<Delicatessen />} />

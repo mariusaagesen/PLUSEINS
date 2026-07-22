@@ -7,6 +7,7 @@ export const translations = {
       boutique: 'Boutique',
       salumeria: 'Salumeria',
       deliMenu: 'Deli',
+      showroom: 'Showroom',
       magazine: 'Magazine',
       aboutUs: 'Om os',
       cafe: 'Café Salamanca',
@@ -74,6 +75,10 @@ export const translations = {
         'Vi er gået sammen om at skabe et univers af alt det, vi holder af. Vi har store ambitioner og vi vil skabe et helt særligt sted, hvor du kan finde lækre og anvendelige produkter, hvor kvaliteten er højsædet.',
         'Vi går nu ind i vores 2. sæson og vi glæder os til at byde jer velkomne i vores univers med god kaffe, lækker tysk vin, delikate italienske specialiter og skønne livsstilsprodukter.',
       ],
+    },
+    showroom: {
+      title: 'SHOWROOM_TITLE',
+      text: 'SHOWROOM_TEXT',
     },
     magazine: {
       seasonLabel: 'Forårsudgave 2026',
@@ -333,6 +338,7 @@ export const translations = {
       boutique: 'Boutique',
       salumeria: 'Salumeria',
       deliMenu: 'Deli',
+      showroom: 'Showroom',
       magazine: 'Magazine',
       aboutUs: 'Über uns',
       cafe: 'Café Salamanca',
@@ -400,6 +406,10 @@ export const translations = {
         'Wir haben uns zusammengetan, um ein Universum aus allem zu schaffen, was wir lieben. Wir haben große Ambitionen und möchten einen ganz besonderen Ort schaffen, an dem man wunderschöne und nützliche Produkte findet, bei denen Qualität stets an erster Stelle steht.',
         'Wir gehen nun in unsere zweite Saison und freuen uns darauf, Sie in unserem Universum willkommen zu heißen — mit gutem Kaffee, feinem deutschen Wein, delikaten italienischen Spezialitäten und wunderschönen Lifestyleprodukten.',
       ],
+    },
+    showroom: {
+      title: 'SHOWROOM_TITLE',
+      text: 'SHOWROOM_TEXT',
     },
     magazine: {
       seasonLabel: 'Frühjahrsausgabe 2026',
@@ -659,6 +669,7 @@ export const translations = {
       boutique: 'Boutique',
       salumeria: 'Salumeria',
       deliMenu: 'Deli',
+      showroom: 'Showroom',
       magazine: 'Magazine',
       aboutUs: 'About Us',
       cafe: 'Café Salamanca',
@@ -726,6 +737,10 @@ export const translations = {
         'We have come together to create a universe of everything we love. We have great ambitions and want to build something truly special — a place where you can find beautiful, useful products where quality is never compromised.',
         'We are now entering our second season and look forward to welcoming you into our universe — with good coffee, fine German wine, delicate Italian specialities and beautiful lifestyle products.',
       ],
+    },
+    showroom: {
+      title: 'SHOWROOM_TITLE',
+      text: 'SHOWROOM_TEXT',
     },
     magazine: {
       seasonLabel: 'Spring Issue 2026',
