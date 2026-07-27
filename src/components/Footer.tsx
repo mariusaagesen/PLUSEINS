@@ -71,6 +71,10 @@ export default function Footer() {
                 <a href="mailto:accounting@plus-eins.dk" className="text-sm font-sans font-light text-stone-400 hover:text-stone-200 transition-colors block">
                   accounting@plus-eins.dk
                 </a>
+                <a href="tel:+4540202826" className="text-sm font-sans font-light text-stone-400 hover:text-stone-200 transition-colors inline-flex items-center gap-1.5">
+                  <Phone size={14} strokeWidth={1.5} />
+                  +45 40 20 28 26
+                </a>
               </div>
               <div className="pt-2">
                 <p className="text-xs font-sans tracking-[0.2em] uppercase text-stone-600 mb-4">{t.visit.social.label}</p>
@@ -112,13 +116,6 @@ export default function Footer() {
             {t.footer.copyright.replace('{year}', String(year))}
           </p>
           <p className="text-xs font-sans text-stone-700">CVR: 45412423</p>
-          <a
-            href="tel:+4540202826"
-            className="text-xs font-sans text-stone-700 hover:text-stone-900 transition-colors inline-flex items-center gap-1.5"
-          >
-            <Phone className="w-3 h-3" />
-            +45 40 20 28 26
-          </a>
           <p className="text-xs font-sans text-stone-700">pluseins.dk — {t.footer.location}</p>
         </div>
       </div>
