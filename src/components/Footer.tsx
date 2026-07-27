@@ -111,6 +111,7 @@ export default function Footer() {
           <p className="text-xs font-sans text-stone-700">
             {t.footer.copyright.replace('{year}', String(year))}
           </p>
+          <p className="text-xs font-sans text-stone-700">CVR: 45412423</p>
           <p className="text-xs font-sans text-stone-700">pluseins.dk — {t.footer.location}</p>
         </div>
       </div>
