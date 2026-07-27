@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Instagram, Facebook } from 'lucide-react';
+import { Instagram, Facebook, Phone } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 const routes = [
@@ -112,6 +112,13 @@ export default function Footer() {
             {t.footer.copyright.replace('{year}', String(year))}
           </p>
           <p className="text-xs font-sans text-stone-700">CVR: 45412423</p>
+          <a
+            href="tel:+4540202826"
+            className="text-xs font-sans text-stone-700 hover:text-stone-900 transition-colors inline-flex items-center gap-1.5"
+          >
+            <Phone className="w-3 h-3" />
+            +45 40 20 28 26
+          </a>
           <p className="text-xs font-sans text-stone-700">pluseins.dk — {t.footer.location}</p>
         </div>
       </div>
