@@ -8,7 +8,7 @@ const brands = [
   },
   {
     name: 'Nørgaard\npå Strøget',
-    logo: '/images/logos/9788702062137_nobg.png',
+    logo: '/images/norgaard.png',
   },
   {
     name: 'Rabens Saloner',
