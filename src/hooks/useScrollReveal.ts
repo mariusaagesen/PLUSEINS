@@ -7,6 +7,11 @@ export function useScrollReveal<T extends HTMLElement>() {
     const el = ref.current;
     if (!el) return;
 
+    if (!('IntersectionObserver' in window)) {
+      el.classList.add('visible');
+      return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -28,6 +33,11 @@ export function useScrollRevealAll(selector: string, container?: HTMLElement | n
   useEffect(() => {
     const root = container ?? document;
     const elements = root.querySelectorAll<HTMLElement>(selector);
+
+    if (!('IntersectionObserver' in window)) {
+      elements.forEach((el) => el.classList.add('visible'));
+      return;
+    }
 
     const observer = new IntersectionObserver(
       (entries) => {

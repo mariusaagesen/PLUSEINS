@@ -110,7 +110,11 @@ export default function DeliMenu() {
                 src="/images/Prosciutto-di-Parma-Focaccia-Sandwich.png"
                 alt="Plus Eins Deli i Rørvig"
                 className="w-full h-full object-cover object-center"
+                width={1920}
+                height={1080}
                 loading="eager"
+                decoding="async"
+                fetchpriority="high"
               />
             </div>
           </ScrollReveal>

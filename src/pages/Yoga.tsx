@@ -8,12 +8,16 @@ export default function Yoga() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative h-[80vh] min-h-[560px] flex items-center overflow-hidden">
+      <section className="relative h-[80svh] min-h-[560px] flex items-center overflow-hidden">
         <img
           src="https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg?auto=compress&cs=tinysrgb&w=1920"
           alt="Morning yoga"
           className="absolute inset-0 w-full h-full object-cover object-center"
+          width={1920}
+          height={1080}
           loading="eager"
+          decoding="async"
+          fetchpriority="high"
         />
         <div className="absolute inset-0 bg-stone-950/45" />
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 w-full">

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import ScrollReveal from '../components/ScrollReveal';
@@ -7,13 +7,13 @@ const cards = [
   {
     key: 'boutique' as const,
     path: '/boutique',
-    image: '/images/IMG_5273.jpg',
+    image: '/images/IMG_5273.webp',
     logoOnly: false,
   },
   {
     key: 'salumeria' as const,
     path: '/salumeria',
-    image: '/images/logos/IMG_5106.jpg',
+    image: '/images/logos/IMG_5106.webp',
     logoOnly: false,
   },
   {
@@ -26,12 +26,6 @@ const cards = [
 
 export default function Home() {
   const { t } = useLanguage();
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    const id = setTimeout(() => setLoaded(true), 80);
-    return () => clearTimeout(id);
-  }, []);
 
   useEffect(() => {
     const el = document.querySelector('meta[name="description"]');
@@ -41,25 +35,27 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative h-screen min-h-[640px] flex items-end overflow-hidden">
+      <section className="relative min-h-[100svh] min-h-[640px] flex items-end overflow-hidden">
         <div className="absolute inset-0">
-          <img
-            src="/images/Screenshot_2026-07-10_at_11.56.11.png"
-            alt="Plus Eins"
-            className="w-full h-full object-cover object-center"
-            loading="eager"
-          />
+          <picture>
+            <source media="(max-width: 640px)" srcSet="/images/hero-mobile.webp" type="image/webp" />
+            <source media="(max-width: 1024px)" srcSet="/images/hero-tablet.webp" type="image/webp" />
+            <source media="(min-width: 1025px)" srcSet="/images/hero-desktop.webp" type="image/webp" />
+            <img
+              src="/images/hero-desktop.webp"
+              alt="Plus Eins"
+              className="w-full h-full object-cover object-center"
+              width={1920}
+              height={1280}
+              loading="eager"
+              decoding="async"
+              fetchpriority="high"
+            />
+          </picture>
         </div>
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 pb-20 md:pb-28">
-          <div
-            className="max-w-xl"
-            style={{
-              opacity: loaded ? 1 : 0,
-              transform: loaded ? 'translateY(0)' : 'translateY(16px)',
-              transition: 'opacity 1.2s cubic-bezier(0.25,0.46,0.45,0.94) 0.2s, transform 1.2s cubic-bezier(0.25,0.46,0.45,0.94) 0.2s',
-            }}
-          >
+          <div className="max-w-xl sr-up sr-visible">
             <div className="flex flex-wrap gap-4">
               <Link to="/visit" className="btn-light">{t.home.hero.cta}</Link>
             </div>
@@ -121,10 +117,13 @@ export default function Home() {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/images/IMG_8158.JPG"
+            src="/images/IMG_8158.webp"
             alt="Plus Eins Rørvig"
             className="w-full h-full object-cover object-center"
+            width={1920}
+            height={1080}
             loading="lazy"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-stone-950/55" />
         </div>

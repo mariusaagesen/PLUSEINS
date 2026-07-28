@@ -14,6 +14,11 @@ export default function ScrollReveal({ children, className = '', delay = 0, dire
     const el = ref.current;
     if (!el) return;
 
+    if (!('IntersectionObserver' in window)) {
+      el.classList.add('sr-visible');
+      return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {

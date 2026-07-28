@@ -9,12 +9,16 @@ export default function Cafe() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative h-[70vh] min-h-[520px] flex items-end overflow-hidden">
+      <section className="relative h-[70svh] min-h-[520px] flex items-end overflow-hidden">
         <img
           src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1920"
           alt="Café Salamanca"
           className="absolute inset-0 w-full h-full object-cover object-center"
+          width={1920}
+          height={1080}
           loading="eager"
+          decoding="async"
+          fetchpriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-stone-950/75 via-stone-950/20 to-transparent" />
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 pb-16 md:pb-24 w-full">

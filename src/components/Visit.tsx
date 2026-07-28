@@ -136,9 +136,11 @@ export default function Visit() {
                 <div className="text-center">
                   <div className="w-14 h-14 bg-cream-50 rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg">
                     <img
-                      src="/images/Screenshot_2026-07-08_at_15.10.11.png"
+                      src="/images/Logo.png"
                       alt="Plus Eins"
                       className="h-8 w-8 object-contain mix-blend-multiply"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <p className="font-sans text-sm text-cream-50 tracking-wider font-light">Vesterbrogade, Copenhagen</p>

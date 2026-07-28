@@ -16,16 +16,20 @@ export default function Magazine() {
   return (
     <div className="min-h-screen pt-24 pb-16" style={{ backgroundColor: '#f5f0eb' }}>
       <div className="max-w-3xl mx-auto">
-        {pages.map(({ num, label, override }) => (
-          <img
-            key={num}
-            src={override ?? `/magazine-pages/${num}.png`}
-            alt={label}
-            className="w-full h-auto block"
-            loading={num === 1 ? 'eager' : 'lazy'}
-            decoding="async"
-          />
-        ))}
+        {pages.map(({ num, label, override }) => {
+          const src = override ?? `/magazine-pages/${num}.webp`;
+          const isCover = num === 1;
+          return (
+            <img
+              key={num}
+              src={src}
+              alt={label}
+              className="w-full h-auto block"
+              loading={isCover ? 'eager' : 'lazy'}
+              decoding="async"
+            />
+          );
+        })}
       </div>
     </div>
   );

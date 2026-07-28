@@ -55,7 +55,7 @@ export default function Events() {
     <section id="events" ref={sectionRef} className="py-28 md:py-36 overflow-hidden">
       {/* Background image section */}
       <div className="relative mb-20">
-        <div className="image-scale h-[50vh] min-h-[320px] overflow-hidden scroll-reveal" data-delay="0">
+        <div className="image-scale h-[50svh] min-h-[320px] overflow-hidden scroll-reveal" data-delay="0">
           <img
             src="https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg?auto=compress&cs=tinysrgb&w=1920"
             alt="Events at Plus Eins"

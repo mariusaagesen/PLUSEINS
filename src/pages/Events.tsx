@@ -13,12 +13,16 @@ export default function Events() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative h-[70vh] min-h-[520px] flex items-end overflow-hidden">
+      <section className="relative h-[70svh] min-h-[520px] flex items-end overflow-hidden">
         <img
           src="https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg?auto=compress&cs=tinysrgb&w=1920"
           alt="Events"
           className="absolute inset-0 w-full h-full object-cover object-center"
+          width={1920}
+          height={1080}
           loading="eager"
+          decoding="async"
+          fetchpriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-stone-950/30 to-transparent" />
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 pb-16 md:pb-24 w-full">
@@ -74,12 +78,15 @@ export default function Events() {
       </section>
 
       {/* Image break */}
-      <section className="h-[45vh] min-h-[280px] relative overflow-hidden">
+      <section className="h-[45svh] min-h-[280px] relative overflow-hidden">
         <img
           src="https://images.pexels.com/photos/1684150/pexels-photo-1684150.jpeg?auto=compress&cs=tinysrgb&w=1920"
           alt="Evening at Plus Eins"
           className="w-full h-full object-cover object-center"
+          width={1920}
+          height={1080}
           loading="lazy"
+          decoding="async"
         />
         <div className="absolute inset-0 bg-stone-950/40" />
         <div className="absolute inset-0 flex items-center justify-center">

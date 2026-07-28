@@ -10,13 +10,17 @@ export default function Visit() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative h-[60vh] min-h-[420px] flex items-end overflow-hidden">
+      <section className="relative h-[60svh] min-h-[420px] flex items-end overflow-hidden">
         <img
-          src="/images/IMG_8158 copy.JPG"
+          src="/images/IMG_8158.webp"
           alt="Plus Eins Rørvig"
           className="absolute inset-0 w-full h-full object-cover object-center"
           style={{ transform: 'rotate(1.5deg) scale(1.05)', transformOrigin: 'center center' }}
+          width={1920}
+          height={1080}
           loading="eager"
+          decoding="async"
+          fetchpriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-stone-950/75 via-stone-950/20 to-transparent" />
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 pb-16 md:pb-24 w-full">

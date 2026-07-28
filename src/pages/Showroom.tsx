@@ -28,7 +28,11 @@ export default function Showroom() {
                 src="/images/timeless-beauty-z0q1tc464b5t1s6.jpg"
                 alt="Weisselberg Showroom — Plus Eins"
                 className="w-full h-full object-cover object-center"
+                width={1920}
+                height={1080}
                 loading="eager"
+                decoding="async"
+                fetchpriority="high"
               />
             </div>
           </ScrollReveal>

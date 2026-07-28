@@ -61,10 +61,14 @@ export default function Boutique() {
           <ScrollReveal direction="up" delay={60}>
             <div className="w-full overflow-hidden" style={{ aspectRatio: '16/9' }}>
               <img
-                src="/images/IMG_5273.jpg"
+                src="/images/IMG_5273.webp"
                 alt="Plus Eins Boutique"
                 className="w-full h-full object-cover object-center"
+                width={1920}
+                height={1080}
                 loading="eager"
+                decoding="async"
+                fetchpriority="high"
               />
             </div>
           </ScrollReveal>

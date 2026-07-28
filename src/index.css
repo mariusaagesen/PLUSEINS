@@ -97,11 +97,13 @@
     transform: translateY(24px);
     transition: opacity 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94),
                 transform 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation: sr-fallback 0.01s 3s forwards;
   }
 
   .scroll-reveal.visible {
     opacity: 1;
     transform: translateY(0);
+    animation: none;
   }
 
   .scroll-reveal-left {
@@ -109,11 +111,13 @@
     transform: translateX(-24px);
     transition: opacity 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94),
                 transform 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation: sr-fallback 0.01s 3s forwards;
   }
 
   .scroll-reveal-left.visible {
     opacity: 1;
     transform: translateX(0);
+    animation: none;
   }
 
   .scroll-reveal-right {
@@ -121,11 +125,13 @@
     transform: translateX(24px);
     transition: opacity 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94),
                 transform 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation: sr-fallback 0.01s 3s forwards;
   }
 
   .scroll-reveal-right.visible {
     opacity: 1;
     transform: translateX(0);
+    animation: none;
   }
 
   .image-scale {
@@ -146,26 +152,34 @@
     transform: translateY(28px);
     transition: opacity 0.85s cubic-bezier(0.25, 0.46, 0.45, 0.94),
                 transform 0.85s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation: sr-fallback 0.01s 3s forwards;
   }
   .sr-left {
     opacity: 0;
     transform: translateX(-28px);
     transition: opacity 0.85s cubic-bezier(0.25, 0.46, 0.45, 0.94),
                 transform 0.85s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation: sr-fallback 0.01s 3s forwards;
   }
   .sr-right {
     opacity: 0;
     transform: translateX(28px);
     transition: opacity 0.85s cubic-bezier(0.25, 0.46, 0.45, 0.94),
                 transform 0.85s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation: sr-fallback 0.01s 3s forwards;
   }
   .sr-none {
     opacity: 0;
     transition: opacity 0.85s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation: sr-fallback 0.01s 3s forwards;
   }
   .sr-visible {
     opacity: 1 !important;
     transform: none !important;
+    animation: none !important;
+  }
+  @keyframes sr-fallback {
+    to { opacity: 1; transform: none; }
   }
 }
 

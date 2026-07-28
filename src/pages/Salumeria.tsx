@@ -25,10 +25,14 @@ export default function Salumeria() {
           <ScrollReveal direction="up" delay={60}>
             <div className="w-full overflow-hidden" style={{ aspectRatio: '16/9' }}>
               <img
-                src="/images/logos/IMG_5106.jpg"
+                src="/images/logos/IMG_5106.webp"
                 alt="Salumeria — Plus Eins"
                 className="w-full h-full object-cover object-center"
+                width={1024}
+                height={1365}
                 loading="eager"
+                decoding="async"
+                fetchpriority="high"
               />
             </div>
           </ScrollReveal>

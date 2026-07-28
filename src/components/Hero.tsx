@@ -1,41 +1,30 @@
-import { useEffect, useState } from 'react';
 import { ArrowDown } from 'lucide-react';
 
 export default function Hero() {
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    const t = setTimeout(() => setLoaded(true), 100);
-    return () => clearTimeout(t);
-  }, []);
-
   const scrollToAbout = () => {
     document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
-    <section className="relative h-screen min-h-[600px] flex items-end overflow-hidden">
+    <section className="relative min-h-[100svh] min-h-[600px] flex items-end overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <img
           src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1920"
           alt="Plus Eins atmosphere"
           className="w-full h-full object-cover object-center"
+          width={1920}
+          height={1280}
           loading="eager"
+          decoding="async"
+          fetchpriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-stone-950/75 via-stone-950/20 to-stone-950/10" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 pb-20 md:pb-28">
-        <div
-          className="max-w-3xl"
-          style={{
-            opacity: loaded ? 1 : 0,
-            transform: loaded ? 'translateY(0)' : 'translateY(20px)',
-            transition: 'opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s, transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s',
-          }}
-        >
+        <div className="max-w-3xl">
           <p className="text-cream-200 text-xs font-sans tracking-[0.25em] uppercase mb-6">
             Café · Salumeria · Wine · Lifestyle
           </p>
@@ -71,10 +60,6 @@ export default function Hero() {
         onClick={scrollToAbout}
         className="absolute bottom-10 right-10 hidden md:flex flex-col items-center gap-2 text-cream-200/50 hover:text-cream-200 transition-colors z-10"
         aria-label="Scroll down"
-        style={{
-          opacity: loaded ? 1 : 0,
-          transition: 'opacity 1s ease 1.5s',
-        }}
       >
         <span className="text-[10px] font-sans tracking-[0.2em] uppercase rotate-90 mb-3 inline-block">Scroll</span>
         <ArrowDown size={14} strokeWidth={1.5} className="animate-bounce" />
