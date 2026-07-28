@@ -82,7 +82,7 @@ export default function Navigation() {
 
           {/* Language switcher + hamburger */}
           <div className="flex items-center gap-4">
-            <div className="flex items-center gap-1">
+            <div className={`flex items-center gap-1 px-2 py-1 rounded-full transition-all duration-[400ms] ${transparent ? 'bg-stone-950/30 backdrop-blur-[2px]' : ''}`}>
               {langs.map((l, i) => (
                 <span key={l} className="flex items-center">
                   <button
