@@ -55,6 +55,8 @@ export default function Salumeria() {
         <ScrollReveal direction="up">
           <div className="font-sans text-stone-800 w-full" style={{ maxWidth: '1000px' }}>
 
+            <h2 className="font-serif font-bold text-stone-900 text-xl mb-8">Menu</h2>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16">
 
               {/* ── LEFT COLUMN ── */}
