@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import ScrollReveal from '../components/ScrollReveal';
 
@@ -41,6 +42,11 @@ export default function Delicatessen() {
               </h2>
               <p className="font-sans font-light text-stone-600 text-lg leading-[1.75] mb-4">{d.intro.text}</p>
               <p className="font-sans font-light text-stone-500 text-base leading-[1.8]">{d.intro.text2}</p>
+              <p className="font-sans font-light text-stone-500 text-base leading-[1.8] mt-4">
+                <Link to="/deli" className="text-stone-700 underline decoration-stone-300 hover:decoration-stone-500 transition-colors">
+                  {t.nav.deliMenu}
+                </Link>
+              </p>
             </ScrollReveal>
             <ScrollReveal direction="right" delay={100}>
               <div className="grid grid-cols-2 gap-3">

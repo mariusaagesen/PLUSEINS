@@ -46,6 +46,10 @@ export const translations = {
         label: 'Besøg os',
         title: 'Vi er i Rørvig.',
         text: 'Plus Eins ligger midt i Rørvig – tæt på vandet, omgivet af natur og kun et par timers kørsel fra København.',
+        cta: 'Se mere',
+      },
+      deliLink: 'Besøg Plus Eins Deli og se menuen.',
+      visitCta: {
         cta: 'Se åbningstider & adresse',
       },
     },
@@ -60,6 +64,33 @@ export const translations = {
     deliMenu: {
       intro: {
         text: 'Her bliver der bagt focaccia efter traditioner hentet fra Syditalien, serveret med udvalgte delikatesser, vine og oste, der er skabt med samme kompromisløse tilgang til smag og kvalitet, som Plus Eins er kendt for.',
+      },
+      meta: {
+        title: 'Plus Eins Deli & Menu i Rørvig | Focaccia og Delikatesser',
+        description: 'Se menuen hos Plus Eins Deli i Rørvig. Focaccia bagt efter syditalienske traditioner med udvalgte delikatesser, oste og vine.',
+        ogTitle: 'Plus Eins Deli & Menu i Rørvig',
+        ogDescription: 'Se menuen hos Plus Eins Deli i Rørvig med focaccia, delikatesser, oste og vine.',
+      },
+      h1: 'Plus Eins Deli i Rørvig',
+      locationNote: 'På denne side finder du menuen for Plus Eins Deli på Toldbodvej 8 i Rørvig.',
+      sections: {
+        menu: 'Menu',
+        focaccia: 'Focaccia og delikatesser',
+        visit: 'Besøg Plus Eins Deli',
+      },
+      breadcrumbs: {
+        home: 'Forside',
+        current: 'Deli',
+      },
+      visit: {
+        addressLabel: 'Adresse',
+        address: 'Toldbodvej 8, 4581 Rørvig, Danmark',
+        hoursLabel: 'Åbningstider',
+        hours: 'Mandag – Søndag',
+        hoursTime: '11:00 – 20:00',
+        phoneLabel: 'Telefon',
+        phone: '+45 40 20 28 26',
+        cta: 'Se åbningstider og finde vej',
       },
     },
     salumeria: {
@@ -377,6 +408,10 @@ export const translations = {
         label: 'Besuch',
         title: 'Wir sind in Rørvig.',
         text: 'Plus Eins liegt im Herzen von Rørvig – nah am Wasser, umgeben von Natur und nur wenige Autostunden von Kopenhagen entfernt.',
+        cta: 'Mehr sehen',
+      },
+      deliLink: 'Besuchen Sie Plus Eins Deli und sehen Sie die Speisekarte.',
+      visitCta: {
         cta: 'Öffnungszeiten & Adresse',
       },
     },
@@ -391,6 +426,33 @@ export const translations = {
     deliMenu: {
       intro: {
         text: 'Hier wird Focaccia nach süditalienischer Tradition gebacken und mit ausgewählten Delikatessen, Weinen und Käsespezialitäten serviert – alles ausgewählt mit demselben kompromisslosen Anspruch an Geschmack und Qualität, für den Plus Eins bekannt ist.',
+      },
+      meta: {
+        title: 'Plus Eins Deli & Speisekarte in Rørvig | Focaccia und Delikatessen',
+        description: 'Sehen Sie die Speisekarte von Plus Eins Deli in Rørvig. Focaccia nach süditalienischer Tradition mit ausgewählten Delikatessen, Käse und Wein.',
+        ogTitle: 'Plus Eins Deli & Speisekarte in Rørvig',
+        ogDescription: 'Sehen Sie die Speisekarte von Plus Eins Deli in Rørvig mit Focaccia, Delikatessen, Käse und Wein.',
+      },
+      h1: 'Plus Eins Deli in Rørvig',
+      locationNote: 'Auf dieser Seite finden Sie die Speisekarte für Plus Eins Deli auf Toldbodvej 8 in Rørvig.',
+      sections: {
+        menu: 'Speisekarte',
+        focaccia: 'Focaccia und Delikatessen',
+        visit: 'Besuchen Sie Plus Eins Deli',
+      },
+      breadcrumbs: {
+        home: 'Startseite',
+        current: 'Deli',
+      },
+      visit: {
+        addressLabel: 'Adresse',
+        address: 'Toldbodvej 8, 4581 Rørvig, Dänemark',
+        hoursLabel: 'Öffnungszeiten',
+        hours: 'Montag – Sonntag',
+        hoursTime: '11:00 – 20:00',
+        phoneLabel: 'Telefon',
+        phone: '+45 40 20 28 26',
+        cta: 'Öffnungszeiten und Wegbeschreibung ansehen',
       },
     },
     salumeria: {
@@ -708,6 +770,10 @@ export const translations = {
         label: 'Visit',
         title: 'We are in Rørvig.',
         text: 'The beautiful coastal town of Denmark. We are happy to bring you Danish interior, Italian specialities and German culture.',
+        cta: 'See more',
+      },
+      deliLink: 'Visit Plus Eins Deli and see the menu.',
+      visitCta: {
         cta: 'Opening hours & address',
       },
     },
@@ -722,6 +788,33 @@ export const translations = {
     deliMenu: {
       intro: {
         text: 'Here, focaccia is baked according to traditions from Southern Italy and served with carefully selected delicacies, wines and cheeses, all chosen with the same uncompromising commitment to flavour and quality that Plus Eins is known for.',
+      },
+      meta: {
+        title: 'Plus Eins Deli & Menu in Rørvig | Focaccia and Delicacies',
+        description: 'See the menu at Plus Eins Deli in Rørvig. Focaccia baked in the Southern Italian tradition with selected delicacies, cheeses and wines.',
+        ogTitle: 'Plus Eins Deli & Menu in Rørvig',
+        ogDescription: 'See the menu at Plus Eins Deli in Rørvig with focaccia, delicacies, cheeses and wines.',
+      },
+      h1: 'Plus Eins Deli in Rørvig',
+      locationNote: 'On this page you will find the menu for Plus Eins Deli at Toldbodvej 8 in Rørvig.',
+      sections: {
+        menu: 'Menu',
+        focaccia: 'Focaccia and delicacies',
+        visit: 'Visit Plus Eins Deli',
+      },
+      breadcrumbs: {
+        home: 'Home',
+        current: 'Deli',
+      },
+      visit: {
+        addressLabel: 'Address',
+        address: 'Toldbodvej 8, 4581 Rørvig, Denmark',
+        hoursLabel: 'Opening hours',
+        hours: 'Monday – Sunday',
+        hoursTime: '11:00 – 20:00',
+        phoneLabel: 'Phone',
+        phone: '+45 40 20 28 26',
+        cta: 'See opening hours and directions',
       },
     },
     salumeria: {

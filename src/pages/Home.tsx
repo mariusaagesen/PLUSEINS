@@ -143,6 +143,11 @@ export default function Home() {
               <Link to="/visit" className="btn-light">
                 {t.home.visitTeaser.cta}
               </Link>
+              <p className="font-sans font-light text-cream-100/70 text-base leading-[1.7] mt-6">
+                <Link to="/deli" className="underline decoration-cream-100/30 hover:decoration-cream-100 transition-colors">
+                  {t.home.deliLink}
+                </Link>
+              </p>
             </div>
           </ScrollReveal>
         </div>
