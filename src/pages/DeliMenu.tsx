@@ -136,19 +136,16 @@ export default function DeliMenu() {
       <section className="max-w-[1400px] mx-auto px-6 md:px-10 pb-32 md:pb-40 flex justify-center">
         <ScrollReveal direction="up">
           <div className="w-full" style={{ maxWidth: '1000px' }}>
-            <div className="flex justify-center mb-12">
+            <h2 className="font-serif font-bold text-stone-900 text-xl mb-8">
+              {d.sections.menu}
+            </h2>
+            <div className="flex justify-center">
               <img
                 src="/images/plus-eins-deli-menu-transparent.png"
                 alt="Menu hos Plus Eins Deli"
                 style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
                 loading="lazy"
               />
-            </div>
-            {/* Crawlable text summary of what the menu image contains */}
-            <div className="max-w-2xl mx-auto text-center">
-              <p className="font-sans font-light text-stone-500 text-base leading-[1.8]">
-                {d.intro.text}
-              </p>
             </div>
           </div>
         </ScrollReveal>
