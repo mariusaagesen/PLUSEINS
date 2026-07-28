@@ -232,7 +232,10 @@ export default function Salumeria() {
                     <p>Ice Latte (inkl karamel sirup)</p>
                   </div>
                   <div className="mt-3 border border-stone-300 px-4 py-3 text-sm font-light">
-                    <p className="font-semibold">Espresso</p>
+                    <div className="flex justify-between items-baseline gap-4">
+                      <p className="font-semibold">Espresso</p>
+                      <span className="shrink-0 font-semibold">Free</span>
+                    </div>
                     <p className="text-stone-500 mt-1 leading-relaxed">If you're ever passing by, you're always welcome to stop in for an espresso.</p>
                   </div>
                 </div>
