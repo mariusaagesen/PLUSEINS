@@ -45,7 +45,7 @@ export default function Navigation() {
             ? 'bg-transparent py-6'
             : 'bg-cream-50/96 backdrop-blur-sm shadow-[0_1px_0_0_rgba(0,0,0,0.06)] py-4'
         }`}
-        style={{ transition: 'background-color 0.4s ease, padding 0.3s ease, box-shadow 0.4s ease' }}
+        style={{ transition: 'background-color 0.4s ease, padding 0.3s ease, box-shadow 0.4s ease', textShadow: transparent ? '0 1px 4px rgba(0,0,0,0.55)' : 'none' }}
       >
         <div className="max-w-7xl mx-auto px-5 md:px-10 flex items-center justify-between gap-4">
           {/* Logo */}
@@ -105,6 +105,7 @@ export default function Navigation() {
             <button
               onClick={() => setOpen(true)}
               className={`p-1.5 transition-colors ${transparent ? 'text-cream-50' : 'text-stone-800'}`}
+              style={transparent ? { filter: 'drop-shadow(0 1px 3px rgba(0,0,0,0.6))' } : undefined}
               aria-label="Open menu"
             >
               <Menu size={20} strokeWidth={1.5} />
