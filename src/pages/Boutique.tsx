@@ -35,6 +35,31 @@ const brands = [
     name: 'Baks Bakery',
     logo: '/images/logos/LOGO.webp',
   },
+  {
+    name: 'Bookbinders Design',
+    logo: '/images/logos/companylogo2019.png',
+    blendMultiply: true,
+  },
+  {
+    name: 'Seamless Basic',
+    logo: '/images/logos/Seamlessbasic.png',
+    blendMultiply: true,
+  },
+  {
+    name: 'Stone Soap Spa',
+    logo: '/images/logos/stonesoapspa-logo-large-2.webp',
+    blendMultiply: true,
+  },
+  {
+    name: 'The Artisan Copenhagen',
+    logo: '/images/logos/Version-CHP-small.png',
+    blendMultiply: true,
+  },
+  {
+    name: 'HABIBA',
+    logo: '/images/logos/habiba.png',
+    blendMultiply: true,
+  },
 ];
 
 export default function Boutique() {
@@ -96,19 +121,20 @@ export default function Boutique() {
           <p className="section-label mb-12">{t.boutique.brands.label}</p>
         </ScrollReveal>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-x-6 gap-y-10">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-12">
           {brands.map((brand, i) => (
             <ScrollReveal key={brand.name} delay={i * 40}>
-              <div className="flex items-center justify-center min-h-[72px] transition-opacity duration-300 ease-in-out hover:opacity-60 cursor-default">
+              <div className="flex items-center justify-center min-h-[80px] transition-opacity duration-300 ease-in-out hover:opacity-60 cursor-default">
                 {brand.logo ? (
                   <img
                     src={brand.logo}
                     alt={brand.name.replace('\n', ' ')}
                     className="w-full object-contain"
                     style={{
-                      maxHeight: '64px',
-                      maxWidth: '120px',
+                      maxHeight: '72px',
+                      maxWidth: '160px',
                       filter: brand.forceBlack ? 'brightness(0) saturate(0)' : undefined,
+                      mixBlendMode: brand.blendMultiply ? 'multiply' : undefined,
                     }}
                     loading="lazy"
                   />
