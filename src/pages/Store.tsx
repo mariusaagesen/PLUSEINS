@@ -98,7 +98,7 @@ export default function Store() {
               </div>
               <div className="md:text-right">
                 <a
-                  href="mailto:accounting@plus-eins.dk"
+                  href="mailto:info@plus-eins.dk"
                   className="btn-light inline-flex"
                 >
                   {s.gift.cta}

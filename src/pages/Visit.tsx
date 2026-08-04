@@ -65,8 +65,8 @@ export default function Visit() {
                     {/* Contact */}
                     <div>
                       <p className="text-[10px] font-sans tracking-[0.2em] uppercase text-stone-400 mb-2">{t.footer.contact}</p>
-                      <a href="mailto:accounting@plus-eins.dk" className="text-sm font-sans text-stone-600 hover:text-stone-900 transition-colors block">
-                        accounting@plus-eins.dk
+                      <a href="mailto:info@plus-eins.dk" className="text-sm font-sans text-stone-600 hover:text-stone-900 transition-colors block">
+                        info@plus-eins.dk
                       </a>
                       <a href="tel:+4540202826" className="text-sm font-sans text-stone-600 hover:text-stone-900 transition-colors block mt-0.5">
                         +45 40 20 28 26

@@ -297,7 +297,7 @@ export const translations = {
         title: 'Book din plads',
         text: 'Pladserne er begrænsede. Skriv til os og reserver din plads.',
         cta: 'Send en besked',
-        email: 'accounting@plus-eins.dk',
+        email: 'info@plus-eins.dk',
       },
     },
     visit: {
@@ -322,7 +322,7 @@ export const translations = {
       contact: {
         label: 'Kontakt',
         phone: '+45 40 20 28 26',
-        email: 'accounting@plus-eins.dk',
+        email: 'info@plus-eins.dk',
       },
       social: {
         label: 'Følg med',
@@ -659,7 +659,7 @@ export const translations = {
         title: 'Platz reservieren',
         text: 'Die Plätze sind begrenzt. Schreib uns und reserviere deinen Platz.',
         cta: 'Nachricht senden',
-        email: 'accounting@plus-eins.dk',
+        email: 'info@plus-eins.dk',
       },
     },
     visit: {
@@ -684,7 +684,7 @@ export const translations = {
       contact: {
         label: 'Kontakt',
         phone: '+45 40 20 28 26',
-        email: 'accounting@plus-eins.dk',
+        email: 'info@plus-eins.dk',
       },
       social: {
         label: 'Folgen Sie uns',
@@ -1021,7 +1021,7 @@ export const translations = {
         title: 'Book your spot',
         text: 'Spots are limited. Write to us and reserve your place.',
         cta: 'Send a message',
-        email: 'accounting@plus-eins.dk',
+        email: 'info@plus-eins.dk',
       },
     },
     visit: {
@@ -1046,7 +1046,7 @@ export const translations = {
       contact: {
         label: 'Contact',
         phone: '+45 40 20 28 26',
-        email: 'accounting@plus-eins.dk',
+        email: 'info@plus-eins.dk',
       },
       social: {
         label: 'Follow along',

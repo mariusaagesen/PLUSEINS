@@ -68,8 +68,8 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-xs text-stone-600 mb-1">{t.footer.contact}</p>
-                <a href="mailto:accounting@plus-eins.dk" className="text-sm font-sans font-light text-stone-400 hover:text-stone-200 transition-colors block">
-                  accounting@plus-eins.dk
+                <a href="mailto:info@plus-eins.dk" className="text-sm font-sans font-light text-stone-400 hover:text-stone-200 transition-colors block">
+                  info@plus-eins.dk
                 </a>
                 <a href="tel:+4540202826" className="text-sm font-sans font-light text-stone-400 hover:text-stone-200 transition-colors inline-flex items-center gap-1.5">
                   <Phone size={14} strokeWidth={1.5} />
