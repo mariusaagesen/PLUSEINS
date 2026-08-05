@@ -1,5 +1,5 @@
 const pages = [
-  { num: 1, label: 'Cover', override: '/magazine-pages/water-buffalo.jpg' },
+  { num: 1, label: 'Cover', override: '/magazine-pages/cd75f5ad-6347-4934-a764-fe73fa4f80bd.png' },
   { num: 2, label: 'Page 2' },
   { num: 3, label: 'Page 3' },
   { num: 4, label: 'Page 4' },
